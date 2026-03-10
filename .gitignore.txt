@@ -1,0 +1,20 @@
+# ===== BACKEND (Spring Boot) =====
+/audio-transcribe/target/
+*.log
+*.class
+*.jar
+*.war
+*.iml
+
+# ===== FRONTEND (React) =====
+/audio-transcribe-frontend/node_modules/
+ /audio-transcribe-frontend/dist/
+.env.local
+.env.*.local
+
+# ===== OS & IDE files =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
